@@ -1,0 +1,37 @@
+{
+  "name": "@baslr/stdin",
+  "description": "parse commands inside running cli",
+  "keywords": [
+    "cli",
+    "parse"
+  ],
+  "version": "1.0.0",
+  "author": {
+    "name": "Manuel Baesler",
+    "email": "baslr.at.github@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/baslr/stdin.git"
+  },
+  "bugs": {
+    "url": "http://github.com/baslr/stdin/issues"
+  },
+  "devDependencies": {
+    "coffee-script": ">=1.9.2"
+  },
+  "main": "./find.js",
+  "homepage": "http://github.com/baslr/stdin/",
+  "engines": {
+    "node": ">=0.12.x"
+  },
+    "dependencies": {
+    "nomnom-alive": "^1.8.1-alive"
+  },
+  "licenses": [
+    {
+      "type": "AGPLv3",
+      "url": "https://www.gnu.org/licenses/agpl-3.0.html"
+    }
+  ]
+}
